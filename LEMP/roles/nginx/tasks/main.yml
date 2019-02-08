@@ -6,4 +6,7 @@
 
 - name: Configure Nginx
   template: src=nginx.conf.template dest=/etc/nginx/nginx.conf
+
+- name: Configure site-available/default
+  template: src=default.template dest=/etc/nginx/site-available/default
   notify: restart nginx
