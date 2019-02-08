@@ -7,3 +7,4 @@ mysql_packages:
   - mysql-client
   - python-mysqldb
   - libmysqlclient-dev
+  - python
